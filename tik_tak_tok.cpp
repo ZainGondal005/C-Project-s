@@ -23,11 +23,23 @@ void player1_turn(string array[], int postion_player1)
     array[postion_player1] = 'X';
     if (postion_player1 == 1 || postion_player1 == 2 || postion_player1 == 3 || postion_player1 == 4 || postion_player1 == 5 || postion_player1 == 6 || postion_player1 == 7 || postion_player1 == 8 || postion_player1 == 9)
     {
-        cout <<" "<< array[1] <<" "<< "|" <<" "<< array[2]<<" " << "|" <<" "<< array[3] << "\n"
-             <<"--- --- --- \n"
-             <<" "<< array[4] <<" "<< "|" <<" "<< array[5] <<" "<< "|" <<" "<< array[6] << "\n"
-             <<"--- --- --- \n"
-             <<" "<< array[7] <<" "<< "|" <<" "<< array[8] <<" "<< "|" <<" "<< array[9] << endl;
+        cout << " " << array[1] << " "
+             << "|"
+             << " " << array[2] << " "
+             << "|"
+             << " " << array[3] << "\n"
+             << "--- --- --- \n"
+             << " " << array[4] << " "
+             << "|"
+             << " " << array[5] << " "
+             << "|"
+             << " " << array[6] << "\n"
+             << "--- --- --- \n"
+             << " " << array[7] << " "
+             << "|"
+             << " " << array[8] << " "
+             << "|"
+             << " " << array[9] << endl;
     }
 }
 void player2_turn(string array[], int postion_player2)
@@ -36,11 +48,23 @@ void player2_turn(string array[], int postion_player2)
     array[postion_player2] = 'O';
     if (postion_player2 == 1 || postion_player2 == 2 || postion_player2 == 3 || postion_player2 == 4 || postion_player2 == 5 || postion_player2 == 6 || postion_player2 == 7 || postion_player2 == 8 || postion_player2 == 9)
     {
-         cout <<" "<< array[1] <<" "<< "|" <<" "<< array[2]<<" " << "|" <<" "<< array[3] << "\n"
-             <<"--- --- --- \n"
-             <<" "<< array[4] <<" "<< "|" <<" "<< array[5] <<" "<< "|" <<" "<< array[6] << "\n"
-             <<"--- --- --- \n"
-             <<" "<< array[7] <<" "<< "|" <<" "<< array[8] <<" "<< "|" <<" "<< array[9] << endl;
+        cout << " " << array[1] << " "
+             << "|"
+             << " " << array[2] << " "
+             << "|"
+             << " " << array[3] << "\n"
+             << "--- --- --- \n"
+             << " " << array[4] << " "
+             << "|"
+             << " " << array[5] << " "
+             << "|"
+             << " " << array[6] << "\n"
+             << "--- --- --- \n"
+             << " " << array[7] << " "
+             << "|"
+             << " " << array[8] << " "
+             << "|"
+             << " " << array[9] << endl;
     }
 }
 int main()

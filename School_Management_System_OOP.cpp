@@ -7,6 +7,7 @@ private:
     int TeachersID[5];
     string Teachers_name[5];
     string Department[5];
+
 public:
     teachers() {}
     void read_teachers(int &, int &);
@@ -381,7 +382,7 @@ int main()
         cin >> option;
         switch (option)
         {
-            case 1:
+        case 1:
         {
             do
             {
@@ -396,7 +397,7 @@ int main()
                 cout << "5. Modify/update Teacher record" << endl;
                 cout << "6. For Exit" << endl;
                 cout << "---------------------------" << endl;
-                cout << "Enter choice: "<<endl;
+                cout << "Enter choice: " << endl;
                 cout << "---------------------------" << endl;
                 cin >> option;
                 switch (option)
@@ -427,27 +428,25 @@ int main()
                     sir.update_Teacher_record(totalteachers);
                     break;
                 }
-                 case 6:
-                
-                    cout<<"Exiting....."<<endl;
+                case 6:
+
+                    cout << "Exiting....." << endl;
                     break;
-               
+
                 default:
                     cout << "Invalid option entered " << endl;
                     break;
                 }
-                
-            }while (option != 6);
-            break;
-           
 
+            } while (option != 6);
+            break;
         }
         case 2:
         {
             do
             {
 
-               cout << "---------------------------" << endl;
+                cout << "---------------------------" << endl;
                 cout << "------Student section------" << endl;
                 cout << "---------------------------" << endl;
                 cout << "1. Add Students record" << endl;
@@ -457,7 +456,7 @@ int main()
                 cout << "5. Modify/update Students record" << endl;
                 cout << "6. Exit" << endl;
                 cout << "---------------------------" << endl;
-                cout << "Enter choice: "<<endl;
+                cout << "Enter choice: " << endl;
                 cout << "---------------------------" << endl;
                 cin >> option;
                 switch (option)
@@ -490,7 +489,7 @@ int main()
                 }
                 case 6:
                 {
-                    cout<<"Exiting....."<<endl;
+                    cout << "Exiting....." << endl;
                     break;
                 }
                 default:
@@ -501,9 +500,9 @@ int main()
             break;
         }
         case 3:
-           cout<<"Exiting....."<<endl;
-           break;
-        
+            cout << "Exiting....." << endl;
+            break;
+
         default:
             cout << "Invalid option entered " << endl;
             break;

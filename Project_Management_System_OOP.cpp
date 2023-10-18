@@ -209,7 +209,7 @@ public:
     void setperson_name();
     void print();
     void set_project();
-    void save(char []);
+    void save(char[]);
     friend ostream &operator<<(ostream &os, const person &p)
     {
         os << "Name of Project is : " << p.project_name << "\n";
